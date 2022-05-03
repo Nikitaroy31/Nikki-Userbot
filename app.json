@@ -43,7 +43,12 @@
         "BOT_TOKEN": {
             "description": "Your Bot Token",
             "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Your Bot Username",
+            "required": true
         }
+
     },
     "addons": [],
     "buildpacks": [

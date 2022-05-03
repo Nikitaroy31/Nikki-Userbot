@@ -35,7 +35,7 @@ CMD_HELP.update(
 )
 
 
-UPSTREAM_REPO_URL = "https://github.com/Itz-fork/Nexa-Userbot"
+UPSTREAM_REPO_URL = "https://github.com/Nikitaroy31/Nikki-Userbot"
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
 )
@@ -101,7 +101,7 @@ async def upstream(client, message):
     if "now" not in conf:
         changelog = await gen_chlog(repo, diff=ac_br)
         if changelog:
-            req_ver = requests.get("https://raw.githubusercontent.com/Itz-fork/Nexa-Userbot/master/cache/nexaub_data.json")
+            req_ver = requests.get("https://raw.githubusercontent.com/Nikitaroy31/Nikki-Userbot/master/cache/nexaub_data.json")
             changelog_str = f"""
 **🌠 New Updates are available for Nexa Userbot 🌠**
 

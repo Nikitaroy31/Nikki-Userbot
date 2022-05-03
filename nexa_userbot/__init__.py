@@ -9,9 +9,9 @@ CMD_HELP = {}
 StartTime = time()
 
 NEXAUB = Client(
-    api_hash=Config.API_HASH,
+    Config.PYRO_STR_SESSION,
     api_id=Config.APP_ID,
-    session_name=Config.PYRO_STR_SESSION,
+    api_hash=Config.API_HASH,
     sleep_threshold=10
 )
 

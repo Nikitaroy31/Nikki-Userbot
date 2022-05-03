@@ -39,6 +39,10 @@
         "PYRO_STR_SESSION": {
             "description": "Pyrogram String Session",
             "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token",
+            "required": true
         }
     },
     "addons": [],
